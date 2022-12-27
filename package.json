@@ -4,16 +4,19 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
+    "android": "expo start --android --clear",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@types/react-native-dotenv": "^0.2.0",
     "expo": "~47.0.9",
+    "expo-sms": "~11.0.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-dotenv": "^3.4.6",
     "react-native-web": "~0.18.9"
   },
   "devDependencies": {
