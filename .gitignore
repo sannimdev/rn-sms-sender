@@ -12,5 +12,9 @@ web-build/
 
 # macOS
 .DS_Store
+
+# custom
 .env*
 files/*
+assets/attatchments/*
+phone-checker/constant.js
