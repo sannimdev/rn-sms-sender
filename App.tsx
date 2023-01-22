@@ -4,7 +4,7 @@ import SMSConfig from './config/SMSConfig';
 import { useEffect, useState } from 'react';
 
 const LIMIT = 100;
-const { addresses, text, multipart } = SMSConfig;
+const { addresses, text } = SMSConfig;
 const PAGE_COUNT = Math.ceil(addresses.length / LIMIT);
 
 export default function App() {
@@ -26,7 +26,7 @@ export default function App() {
 
   const handleReset = () => {
     setPointer(0);
-    setResult([]);
+    setResult('');
     setSentAddresses([]);
   };
 
